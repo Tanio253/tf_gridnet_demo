@@ -42,7 +42,7 @@ with col1:
 
 # Separated Audio - Speaker 1
 with col2:
-    st.subheader("Separated Audio - Speaker 1")
+    st.subheader("Original Audio - Speaker 1")
     if os.path.exists(wav1_path):
         y_speaker1, sr_speaker1 = load_audio(wav1_path)
         st.audio(wav1_path)
@@ -52,7 +52,7 @@ with col2:
 
 # Separated Audio - Speaker 2
 with col3:
-    st.subheader("Separated Audio - Speaker 2")
+    st.subheader("Original Audio - Speaker 2")
     if os.path.exists(wav2_path):
         y_speaker2, sr_speaker2 = load_audio(wav2_path)
         st.audio(wav2_path)
@@ -121,7 +121,7 @@ with col1:
 
 # Separated Audio - Speaker 1
 with col2:
-    st.subheader("Separated Audio - Speaker 1")
+    st.subheader("Original Audio - Speaker 1")
     if os.path.exists(wav1_path):
         y_speaker1, sr_speaker1 = load_audio(wav1_path)
         st.audio(wav1_path)
@@ -131,7 +131,7 @@ with col2:
 
 # Separated Audio - Speaker 2
 with col3:
-    st.subheader("Separated Audio - Speaker 2")
+    st.subheader("Original Audio - Speaker 2")
     if os.path.exists(wav2_path):
         y_speaker2, sr_speaker2 = load_audio(wav2_path)
         st.audio(wav2_path)
