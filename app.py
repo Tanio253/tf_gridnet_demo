@@ -20,7 +20,7 @@ def plot_spectrogram(y, sr, title):
 
 st.title("Audio Separation Demo")
 
-st.header("LibriSpeech_2spk_trainSet")
+st.header("LibriSpeech_2spk_seen_during_training")
 
 # Paths to your audio files
 mix_path = "trainSet/mix.wav"
@@ -99,7 +99,7 @@ with col6:
         st.error(f"File not found: {wham_wav2_path}")
 
 
-st.header("LibriSpeech_2spk_testSet")
+st.header("LibriSpeech_2spk_not_seen_during_training")
 
 
 mix_path = "testSet/mix.wav"
